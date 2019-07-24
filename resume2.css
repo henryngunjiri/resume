@@ -1,0 +1,127 @@
+@media all { 
+    
+*{
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background: #FFFAFA;
+}
+
+
+h2{
+    display: inline-block;
+    border-bottom: #787878 solid 10px;
+    padding-bottom: 3px;
+    padding: 0 10px 5px 10px;
+    margin-top: 40px;
+    
+}
+li{
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    
+    margin-top: 0;
+    letter-spacing: 1;
+    padding-left: 30px;
+   
+}
+h3,h4{
+    margin:0;
+    padding-bottom: 0;
+    letter-spacing: 1.7;
+    
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+a:visited, a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+p, .skills-container{
+    margin: 0 auto 0 5px;
+    width: 70%;
+    line-height: 1.5
+
+    
+}
+
+.profile-img , .social-profile div img{
+    border-radius: 50%;
+ 
+}
+.header-container , .body-container, .social-profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.social-profile{
+    justify-content: space-around;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+
+.header-container{
+    background-color: #b2b2b2;
+}
+.profile-container{
+    flex-grow: 10;
+    align-self: center;
+
+}
+.profile-container h1{
+    font-weight: normal;
+    word-spacing: 2;
+    
+
+}
+
+
+.image-container{
+    flex:20%;   
+    padding: 0;
+    margin: 0;
+}
+.body-container{
+    background-color: #fAfAfA;
+}
+
+.body-container .left{
+    flex:29.5%
+}
+.body-container .right{
+    flex: 70%;
+}
+
+.responsibility-header{
+    font-weight: normal;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+
+.education-container h3{
+    margin-top: 25px;
+    padding-bottom: 5px;
+}
+
+.referee{
+    margin-bottom: 70px;
+}
+
+}
+
+@media print{
+    .skills-container ul li, .social-profile div p{
+       font-size: 80%;
+    }
+}
