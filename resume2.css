@@ -13,7 +13,6 @@ body{
 h2{
     display: inline-block;
     border-bottom: #787878 solid 10px;
-    padding-bottom: 3px;
     padding: 0 10px 5px 10px;
     margin-top: 40px;
     
@@ -126,6 +125,9 @@ p, .skills-container{
     }
 }
 @media screen and (max-width: 720px){
+    h2{
+        display: block;
+    }
 	.header-container , .body-container, .social-profile, .body-container .left, .body-container .right, .image-container {
         display: flex;
         flex-direction: column;
