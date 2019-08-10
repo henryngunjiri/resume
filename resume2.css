@@ -132,4 +132,7 @@ p, .skills-container{
         flex:100%;
         
     }
+   .image-container{
+       align-self: center;
+   }
 }
