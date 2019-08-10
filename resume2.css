@@ -126,5 +126,10 @@ p, .skills-container{
     }
 }
 @media screen and (max-width: 720px){
-	* {flex:100%}
+	.header-container , .body-container, .social-profile, .body-container .left, .body-container .right, .image-container {
+        display: flex;
+        flex-direction: column;
+        flex:100%;
+        
+    }
 }
